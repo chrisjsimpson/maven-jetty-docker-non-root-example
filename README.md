@@ -2,6 +2,12 @@
 
 Example maven jetty docker image running as non root user.
 
+** updated **
+Better example using multi-stage build, resulting in smaller image
+and offine packing of maven dependencies:
+
+https://github.com/chrisjsimpson/maven-jetty-docker-multi-stage-builds
+
 # Clone
     git@github.com:chrisjsimpson/maven-jetty-docker-non-root-example.git 
     cd maven-jetty-docker-non-root-example
