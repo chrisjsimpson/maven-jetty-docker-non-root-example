@@ -3,12 +3,13 @@
 Example maven jetty docker image running as non root user.
 
 # Build
+Make sure you include the "." at the end: 
 
-     `docker build -t myjetty --no-cache -f Dockerfile .`
+     docker build -t myjetty --no-cache -f Dockerfile .
 
 # Run
 
-     `docker run -p 8080:8080 myjetty`
+     docker run -p 8080:8080 myjetty
 
 # Verify
 
