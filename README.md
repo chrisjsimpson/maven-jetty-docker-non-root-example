@@ -8,7 +8,7 @@ Example maven jetty docker image running as non root user.
 
 # Run
 
-     `docker run -e OBP_API_HOSTNAME=127.0.0.1 -p 8080:8080 myjetty`
+     `docker run -p 8080:8080 myjetty`
 
 # Verify
 
